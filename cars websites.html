@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World of Cars | By Harsha</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #020617, #1e293b);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    h2 {
+      color: #22d3ee;
+      margin-bottom: 20px;
+      border-left: 5px solid #22d3ee;
+      padding-left: 10px;
+    }
+    .card {
+      background-color: #020617;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .car {
+      background-color: #020617;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .car:hover {
+      transform: scale(1.03);
+    }
+    .car img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .car div {
+      padding: 15px;
+    }
+    footer {
+      background-color: #020617;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>World of Cars 🚗</h1>
+  <p>Explore sports, electric, luxury & supercars | By Harsha</p>
+</header>
+
+<section>
+  <h2>About This Website</h2>
+  <div class="card">
+    <p>
+      This website is created using pure <b>HTML and CSS</b>. It showcases different types of cars from around the world.
+      The goal of this project is to learn web development fundamentals and host a real website using <b>GitHub Pages</b>.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Types of Cars</h2>
+  <div class="car-grid">
+
+    <div class="car">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Sports Car">
+      <div>
+        <h3>Sports Cars</h3>
+        <p>Sports cars are designed for high speed, performance, and sharp handling. Examples include Ferrari, Lamborghini, and Porsche.</p>
+      </div>
+    </div>
+
+    <div class="car">
+      <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Electric Car">
+      <div>
+        <h3>Electric Cars</h3>
+        <p>Electric cars run on batteries instead of petrol or diesel. They are eco-friendly and quiet. Example: Tesla.</p>
+      </div>
+    </div>
+
+    <div class="car">
+      <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d" alt="Luxury Car">
+      <div>
+        <h3>Luxury Cars</h3>
+        <p>Luxury cars focus on comfort, premium materials, and advanced technology. Examples include BMW, Mercedes, and Audi.</p>
+      </div>
+    </div>
+
+    <div class="car">
+      <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c" alt="Supercar">
+      <div>
+        <h3>Supercars</h3>
+        <p>Supercars are extreme-performance vehicles with powerful engines and exotic designs. Examples: Bugatti, McLaren.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Why Cars Are Important</h2>
+  <div class="card">
+    <p>
+      Cars play a major role in modern life. They help people travel faster, support businesses, and enable emergency services.
+      With electric and AI-powered cars, the future of transportation is becoming smarter and cleaner.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>About the Creator</h2>
+  <div class="card">
+    <p>
+      Hi, I'm <b>Harsha</b> 👋. I am a student and tech enthusiast learning programming, AI, electronics, and web development.
+      This is one of my beginner projects to build and publish a real website using GitHub.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Harsha | GitHub: Harsha-code-create | Built with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
